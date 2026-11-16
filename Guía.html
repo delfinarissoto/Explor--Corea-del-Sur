@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Explorá Corea del Sur</title>
+	<link rel="stylesheet" type="text/css" href="Style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oregano:ital@0;1&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+
+	<nav>
+    <a class="logo" href="Index.html"> <img src="Imágenes/logo.png" alt="Logo"></a>
+		<ul>
+			<li> <a href="Index.html"> Inicio </a></li>
+			<li> <a href="Destinos.html"> Destinos Turísticos </a></li>
+			<li> <a href="Gastronomía.html">Gastronomía </a></li>
+			<li> <a href="Cultura.html">Cultura y Experiencias </a></li>
+			<li> <a href="Guía.html">Guía de Viaje </a></li>
+		</ul>
+		</nav>
+
+
+
+<header> <img id="banner" src="Imágenes/Guía.png" alt="Banner Guía Turística"> </header>
+
+<main>
+	<section class="seccion-tabla">
+	<h2>Si vas a ir a Corea, acá tenés las cosas necesarias que deberías conseguir y saber antes de planear tu viaje</h2>
+	<div class="tabla-contenedor">
+  <table class="tabla-coreano">
+    <thead>
+      <tr>
+        <th>Palabra (Hangul)</th>
+        <th>Romanización</th>
+        <th>Significado</th>
+        <th>Fonética en Español</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>안녕하세요</strong></td>
+        <td>Annyeonghaseyo</td>
+        <td>Hola</td>
+        <td>An-nion-ja-se-io</td>
+      </tr>
+      <tr>
+        <td><strong>안녕히 가세요</strong></td>
+        <td>Annyeonghi gaseyo</td>
+        <td>Adiós</td>
+        <td>An-nion-ji ga-se-io</td>
+      </tr>
+      <tr>
+        <td><strong>네</strong></td>
+        <td>Ne</td>
+        <td>Sí</td>
+        <td>Ne</td>
+      </tr>
+      <tr>
+        <td><strong>아니요</strong></td>
+        <td>Aniyo</td>
+        <td>No</td>
+        <td>A-ni-io</td>
+      </tr>
+      <tr>
+        <td><strong>감사합니다</strong></td>
+        <td>Gamsahabnida</td>
+        <td>Gracias</td>
+        <td>Kam-sa-jam-ni-da</td>
+      </tr>
+      <tr>
+        <td><strong>그리고</strong></td>
+        <td>Geurigo</td>
+        <td>Y / Además / También</td>
+        <td>Krí-go</td>
+      </tr>
+      <tr>
+        <td><strong>맛있어요</strong></td>
+        <td>Masisseoyo</td>
+        <td>Es delicioso</td>
+        <td>Ma-si-so-io</td>
+      </tr>
+      <tr>
+        <td><strong>실례합니다</strong></td>
+        <td>Sil-lye-ham-ni-da</td>
+        <td>Disculpe</td>
+        <td>Shil-lie-jam-ni-dá</td>
+      </tr>
+    </tbody>
+  </table>
+ 
+ </div>
+</section>
+
+<section class="recomendaciones">
+  <h2>Compartí tu experiencia</h2>
+  <p>¿Conocés Corea del Sur? ¡Tus consejos pueden ayudar a otros viajeros!</p>
+
+  <form actio="mainto: delfinarissoto@nuevageneracion.edu.ar" method="post">
+      <!-- Nombre -->
+      <label for="nombre">Tu nombre o apodo</label>
+      <input type="text" id="nombre" name="nombre"
+              placeholder="¿Cómo querés que te conozcan?" required>
+
+      <!-- Experiencia -->
+      <h3>¿Cómo conocés Corea del Sur?</h3>
+      <label for="viaje">
+        <input type="radio" id="viaje" name="experiencia" value="viaje">
+      Viajé a Corea del Sur</label>
+
+      <label for="cultura">
+      <input type="radio" id="cultura" name="experiencia" value="cultura">
+      Conozco su cultura e historia</label>
+
+      <label for="residente">
+      <input type="radio" id="residente" name="experiencia" value="residente">
+      Vivo o viví en Corea del Sur</label>
+
+      <!-- Categoría -->
+      <h3>¿Sobre qué querés recomendar?</h3>
+      <select id="categoria" name="categoria">
+          <option value="destinos">Destinos turísticos</option>
+          <option value="gastronomia">Gastronomía</option>
+          <option value="cultura">Cultura y experiencias</option>
+          <option value="consejos">Consejos para viajar</option>
+          <option value="otros">Otros</option>
+      </select>
+
+      <!-- Lugar o actividad -->
+      <h3>Lugar o actividad recomendada</h3>
+      <input type="text" id="lugar" name="lugar"
+              placeholder="Ej.: Bukchon Hanok Village" required>
+
+      <!-- Recomendación -->
+      <h3>Contanos tu recomendación</h3>
+      <textarea id="mensaje" name="mensaje" rows="5"
+                   placeholder="¿Qué recomendás? ¿Por qué vale la pena?"
+                   required></textarea>
+
+      <button type="submit">Compartir recomendación</button>
+  </form>
+ </section>
+
+ <section class="seccion-tabla">
+    <a href="Documentos/Itinerario de 7 días Corea del Sur.PDF" target="_blank">Haz click aquí para descargar un itinerario sugerido y completo</a>
+    <h2>En el itinerario se incluyen los requisitos de ingreso y un enlace directo a la página oficial de la K-ETA</h2>
+ </section>
+
+
+	
+
+</main>
+
+<footer>
+	<p>Explorá Corea del Sur</p>
+	<p>Proyecto de Diseño Web - 2026</p>
+	<p>Realizado por: Delfina Rissoto</p>
+	<p>Colegio Nueva Generación</p>
+</footer>
+
+
+</body>
+</html>

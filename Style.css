@@ -1,0 +1,323 @@
+body {
+	margin: 0;
+	background-color: #F7EBE1;
+	font-family: oregano;
+	margin: 0px 0px;
+	color: #665566;
+}
+
+h1,h2 {
+	color: #513D50;
+}
+
+.oregano-regular-italic {
+  font-family: "Oregano", cursive;
+  font-weight: 400;
+  font-style: italic;
+}
+
+div p {
+	font-family: calibri;
+	font-style: italic;
+	font-weight: bolder;
+	font-size: 21px;
+	margin: 10px;
+}
+
+div h1 {
+	margin: 10px;
+
+}
+
+/* Menú de Navegación */
+nav {
+	background-color: lightcoral;
+	padding: 15px;
+}
+
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	gap: 25px;
+	letter-spacing: 1.7px;
+}
+
+nav a{
+	text-decoration: none;
+	color: whitesmoke;
+	font-weight: bold;
+}
+
+nav a:hover {
+	color: #F5E0CE;
+	text-decoration: underline;
+}
+ a img {
+	width: auto;
+	height: 30px;
+	display: block;
+
+}
+.logo {
+	position: absolute;
+	transform: translatey(-17%);
+}
+
+#banner {
+	width:100%;
+	height: auto;
+	display: block;
+}
+
+/* Sección de tarjetas */
+ .seccion-tarjetas {
+ 	padding: 30px 20px;
+ 	text-align: center;
+ }
+ .seccion-tarjetas h2 {
+ 	color: #513D50;
+ 	margin-bottom: 25px;
+ }
+
+ .seccion-tarjetas h1 {
+ 	margin-top: 10px;
+ 	margin-bottom: 20px;
+ }
+ /* Contenedor de las cajas */
+ .contenedor-tarjetas {
+ 	display: flex;
+ 	justify-content: center;
+ 	flex-wrap: wrap;
+ 	gap: 25px;
+ 	margin-bottom: 20px;
+ }
+ /* Cada caja */
+ .tarjeta {
+ 	background-color: #FFE0DA;
+ 	flex: 1;
+ 	border-radius: 12px;
+ 	overflow: hidden;
+ 	text-align: left;
+ 	padding-bottom: 20px;
+ }
+ .tarjeta img {
+ 	width: 100%;
+ 	height: 170px;
+ 	object-fit: cover;
+ }
+ .tarjeta h2 {
+ 	color: #513D50;
+ 	margin: 15px;
+ }
+ .tarjeta p {
+ 	color: #665566;
+ 	margin: 15px;
+ 	line-height: 1.5;
+ }
+ .tarjeta a {
+ 	display: inline-block;
+ 	background-color: #FFCFCF;
+ 	color: #513D50;
+ 	padding: 10px 15px;
+ 	margin-left: 15px;
+ 	border-radius: 20px;
+ 	text-decoration: none;
+ }
+ .tarjeta a:hover {
+ 	background-color: #E88D8F;
+ 	color: white;
+ }
+
+
+/* Contenedor: tarjetas una debajo de otra */
+.contenedor-destinos {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	padding: 20px 20px;	
+}
+ 
+.destino {
+	display: flex;
+	flex-direction: row;
+	width: 98%;
+	background-color: #FFE0DA;
+	border-radius: 12px;
+	overflow: hidden;
+	box-sizing: border-box;
+	position: relative;
+	margin-bottom: 20px; /* Separación entre destinos */
+}
+ 
+/* Foto a la izquierda (solo aplica a la imagen principal) */
+.destino img.main-img {
+	width: 35%;
+	height: 230px;
+	object-fit: cover;
+}
+ 
+/* Texto a la derecha */
+.destino .informacion  {
+	flex: 1;
+	padding: 25px;
+	padding-bottom: 60px; /* Evita que el texto largo se solape con el badge de estrellas */
+}
+ 
+.destino h2 {
+	color: #513D50;
+	margin-top: 0;
+}
+ 
+.destino p {
+	color: #665566;
+	font-size: 17px;
+	line-height: 1.6;
+}
+
+/* Badge contenedor de las estrellas abajo a la derecha */
+.destino .star-rating {
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+	background-color: #FFCCBE;
+	padding: 10px 20px;
+	border-radius: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/* Imagen con las 3 estrellas dentro del badge */
+.destino .star-rating img {
+	height: 28px;
+	width: auto;
+	object-fit: contain;
+}
+
+.contenedor-videos {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	padding: 20px 20px;	
+	background-color: #FFE0DA;
+	margin-top:35px;
+}
+
+.seccion-video h1 {
+text-align: center;
+}
+
+
+
+.informacion ul {
+	color: #513D50;
+	margin-top: 0;
+	font-weight: bolder;
+	font-size: 25px;
+	background-color: #FFE0DA;
+} 
+ 
+.informacion li {
+	color: #665566;
+	font-family: calibri;
+	font-style: italic;
+	font-size: 17px;
+	line-height: 1.6;
+}
+
+
+.tabla-contenedor table {
+	border: 2px solid #000;
+	border-collapse: collapse;
+	font-size: 1.4em;
+	margin-left: 15px;
+	margin: 30px auto;
+}
+
+.tabla-contenedor td,th  {
+	border: 1.59px solid #000;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-collapse: collapse;
+
+
+}
+
+
+
+.seccion-tabla  {
+	text-align: center;
+
+
+}
+
+
+.seccion-tabla a {
+ 	display: inline-block;
+ 	background-color: #FFE0DA;
+ 	color: #513D50;
+ 	padding: 10px 15px;
+ 	margin-top: 20px;
+ 	margin-left: 15px;
+ 	border-radius: 20px;
+ 	text-decoration: none;
+ 	font-size: 23px;
+ 	justify-content: center;
+
+ }
+ .seccion-tabla a:hover {
+ 	background-color: #FFD7C9;
+ 	color: white;
+ }
+
+
+.recomendaciones {
+ 	padding: 20px;
+ 	width: 50%;
+ 	max-width: 850px;
+ 	margin: 30px auto;
+ 	background-color: #FBF6F2;
+ 	border-radius: 15PX;
+ 	box-sizing: border-box;
+ 	display: block;
+ 	float: none;
+ }
+
+ .recomendaciones form {
+ 	display: flex;
+ 	flex-direction: column;
+ 	gap: 10px;
+ 	
+ }
+
+ .recomendaciones input[type="text"],
+ .recomendaciones select,
+ .recomendaciones textarea {
+ 	padding: 10px;
+
+ }
+
+ .recomendaciones button {
+ 	padding: 10px;
+ 	cursor: pointer;
+
+ }
+
+
+/* Pie de página */ 
+footer {
+	background-color: lightcoral;
+	color: white;
+	text-align: center;
+	padding: 20px;
+	margin-top: 77px;
+	display: flex;
+	justify-content: center;
+	gap: 15px;
+	letter-spacing: 1px;
+}
+
